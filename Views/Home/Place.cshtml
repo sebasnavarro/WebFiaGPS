@@ -1,0 +1,22 @@
+﻿@Model Place
+
+
+<form asp-action="Place" method="post">
+    
+    Id: <input asp-for="id">
+    Name: <input asp-for="name">
+    Maxlat: <input asp-for="maxlat">
+    Minlat: <input asp-for="minlat">
+    Maxlong: <input asp-for="maxlong">
+    Minlong: <input asp-for="minlong">
+    Alt: <input asp-for="alt">
+
+    
+    <button type="submit">Registrar</button>
+
+</form>
+
+
+<a asp-action="EditarProducto">Editar</a>
+<a asp-action="Productos">Eliminar</a>
+<a asp-action="Producto">Registrar</a>
